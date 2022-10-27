@@ -10,13 +10,7 @@ function duplicateEncode(word){
 
 // Update array based on char count
 for(let i = 0; i < chars.length; i++){
-  if(lookup[chars[i]] === 1){
-    chars[i] = '('
-  }
-  else{
-    chars[i] = ')'
-  }
-  
+  lookup[chars[i]] === 1 ? chars[i] = '(' : chars[i] = ')' 
 }
 
 return chars.join('')
