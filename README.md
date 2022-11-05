@@ -15,6 +15,6 @@ Not being able to answer a question is okay, as long as you learn how to solve i
 ## More Coding Challenges
 <ul> 
 <li> <a target="_blank" href="https://github.com/WilliamPasternak/LeetCode">Leetcode Solutions</a> </li>
-<li> <a target="_blank" href ="https://github.com/WilliamPasternak/Codewars-Solutions">Codwars Solutions</a> </li>
+<li> <a target="_blank" href ="https://github.com/WilliamPasternak/Codewars-Solutions">Codewars Solutions</a> </li>
 <li> <a target="_blank" href="https://github.com/WilliamPasternak/Algorithm-Practice"> Algorithms Practice</a> </li>
 </ul>
