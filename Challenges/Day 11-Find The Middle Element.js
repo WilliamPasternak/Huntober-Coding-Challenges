@@ -14,6 +14,12 @@ function gimme (triplet) {
   return 3 - minIndex - maxIndex
 }
 
+
+// Refactored
+const gimme = arr => arr.indexOf([...arr].sort((a,b) => a - b)[1])
+
+
+
 // Test Cases:
 console.log(gimme([2, 3, 1]), '0')
 console.log(gimme([5, 10, 14]), '1')
