@@ -1,5 +1,8 @@
 Your task is to remove all consecutive duplicate words from a string, leaving only first words entries. For example:
 
+Your task is to remove all consecutive duplicate words from a string, leaving only first words entries. For example:
+
+/* Original
 function removeConsecutiveDuplicates(s){
 	const results = []
 	const words = s.split(' ')
@@ -10,3 +13,12 @@ function removeConsecutiveDuplicates(s){
 }
 return results.join(' ')
 } 
+*/
+
+// Refactored
+function removeConsecutiveDuplicates(str) {
+  return str
+    .split(" ")
+    .filter((word, index, arr) => word !== arr[index + 1])
+    .join(" ");
+}
